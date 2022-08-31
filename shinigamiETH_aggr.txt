@@ -1,0 +1,2160 @@
+{
+  "version": 5,
+  "createdAt": 1649922603262,
+  "updatedAt": 1651234154401,
+  "name": "shinigamiETH",
+  "id": "ethv1",
+  "states": {
+    "panes": {
+      "_id": "panes",
+      "locked": false,
+      "panes": {
+        "chart": {
+          "id": "chart",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BYBIT:ETHUSD",
+            "COINBASE:ETH-USD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHUST",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT"
+          ]
+        },
+        "trades": {
+          "id": "trades",
+          "name": "Perp Trades",
+          "type": "trades",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITMEX:ETHUSD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "BINANCE_FUTURES:ethusdt",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "BYBIT:ETHUSD"
+          ],
+          "settings": {
+            "tradeType": "trades",
+            "thresholds": [
+              {
+                "amount": 100000
+              }
+            ],
+            "liquidations": {
+              "amount": 50000
+            }
+          },
+          "zoom": 0.875
+        },
+        "trades2": {
+          "id": "trades2",
+          "name": "Spot Trades",
+          "type": "trades",
+          "markets": [
+            "BITFINEX:ETHUSD",
+            "COINBASE:ETH-USD",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT",
+            "KRAKEN:ETH/USD",
+            "POLONIEX:USDT_ETH",
+            "BITSTAMP:ETHusd",
+            "KRAKEN:ETH/USDT"
+          ],
+          "zoom": 0.875
+        },
+        "chart2": {
+          "id": "chart2",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BYBIT:ETHUSD",
+            "COINBASE:ETH-USD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHUST",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT"
+          ],
+          "zoom": 0.625
+        },
+        "chart3": {
+          "id": "chart3",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BYBIT:ETHUSD",
+            "COINBASE:ETH-USD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHUST",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT"
+          ],
+          "zoom": 0.625
+        },
+        "chart4": {
+          "id": "chart4",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BYBIT:ETHUSD",
+            "COINBASE:ETH-USD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHUST",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT"
+          ],
+          "zoom": 0.625
+        },
+        "chart5": {
+          "id": "chart5",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BYBIT:ETHUSD",
+            "COINBASE:ETH-USD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHUST",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT"
+          ],
+          "zoom": 0.625
+        },
+        "chart6": {
+          "id": "chart6",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BYBIT:ETHUSD",
+            "COINBASE:ETH-USD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHUST",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT"
+          ],
+          "zoom": 0.625
+        },
+        "chart7": {
+          "id": "chart7",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BYBIT:ETHUSD",
+            "COINBASE:ETH-USD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHUST",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT"
+          ],
+          "zoom": 0.625
+        },
+        "chart8": {
+          "id": "chart8",
+          "name": "",
+          "type": "chart",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_perp",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BYBIT:ETHUSD",
+            "COINBASE:ETH-USD",
+            "DERIBIT:ETH-PERPETUAL",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "BINANCE:ethusdt",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHUST",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USDT",
+            "KRAKEN:ETH/USD",
+            "POLONIEX:USDT_ETH",
+            "BITSTAMP:ETHusd",
+            "KRAKEN:ETH/USDT"
+          ]
+        }
+      },
+      "layout": [
+        {
+          "i": "chart",
+          "type": "chart",
+          "x": 3,
+          "y": 0,
+          "w": 12,
+          "h": 17,
+          "moved": false
+        },
+        {
+          "i": "trades",
+          "type": "trades",
+          "x": 21,
+          "y": 0,
+          "w": 3,
+          "h": 17,
+          "moved": false
+        },
+        {
+          "i": "trades2",
+          "type": "trades",
+          "y": 0,
+          "x": 0,
+          "w": 3,
+          "h": 17,
+          "moved": false
+        },
+        {
+          "i": "chart2",
+          "type": "chart",
+          "y": 17,
+          "x": 0,
+          "w": 4,
+          "h": 7,
+          "moved": false
+        },
+        {
+          "i": "chart3",
+          "type": "chart",
+          "y": 17,
+          "x": 4,
+          "w": 4,
+          "h": 7,
+          "moved": false
+        },
+        {
+          "i": "chart4",
+          "type": "chart",
+          "y": 17,
+          "x": 8,
+          "w": 4,
+          "h": 7,
+          "moved": false
+        },
+        {
+          "i": "chart5",
+          "type": "chart",
+          "y": 17,
+          "x": 12,
+          "w": 4,
+          "h": 7,
+          "moved": false
+        },
+        {
+          "i": "chart6",
+          "type": "chart",
+          "y": 17,
+          "x": 16,
+          "w": 4,
+          "h": 7,
+          "moved": false
+        },
+        {
+          "i": "chart7",
+          "type": "chart",
+          "y": 17,
+          "x": 20,
+          "w": 4,
+          "h": 7,
+          "moved": false
+        },
+        {
+          "i": "chart8",
+          "type": "chart",
+          "y": 0,
+          "x": 15,
+          "w": 6,
+          "h": 17,
+          "moved": false
+        }
+      ]
+    },
+    "settings": {
+      "_id": "settings",
+      "preferQuoteCurrencySize": true,
+      "aggregationLength": 1,
+      "disableAnimations": false,
+      "calculateSlippage": null,
+      "autoHideHeaders": true,
+      "theme": "dark",
+      "backgroundColor": "rgb(23,27,41)",
+      "textColor": "",
+      "timezoneOffset": 0,
+      "useAudio": true,
+      "audioVolume": 1,
+      "audioFilters": {
+        "PingPongDelay": true,
+        "Compressor": false,
+        "Delay": false,
+        "HighPassFilter": true,
+        "LowPassFilter": false
+      },
+      "settings": [
+        "other",
+        "workspaces",
+        "chart",
+        "stats",
+        "counters",
+        "audio"
+      ],
+      "searchTypes": {
+        "historical": true,
+        "spots": false,
+        "perpetuals": false,
+        "futures": false,
+        "normalize": true,
+        "mergeUsdt": true
+      },
+      "searchQuotes": {
+        "USD": true,
+        "USDT": true
+      },
+      "searchExchanges": {},
+      "favoriteTimeframes": {},
+      "normalizeWatermarks": true,
+      "alerts": false,
+      "alertsColor": "red",
+      "alertsLineStyle": 2,
+      "alertsLineWidth": 2,
+      "alertsClick": false
+    },
+    "exchanges": {
+      "BINANCE": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BINANCE_FUTURES": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BINANCE_US": {
+        "disabled": true,
+        "fetched": false
+      },
+      "BITFINEX": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BITMEX": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BITSTAMP": {
+        "disabled": false,
+        "fetched": true
+      },
+      "BYBIT": {
+        "disabled": false,
+        "fetched": true
+      },
+      "COINBASE": {
+        "disabled": false,
+        "fetched": true
+      },
+      "DERIBIT": {
+        "disabled": false,
+        "fetched": true
+      },
+      "DYDX": {
+        "disabled": false,
+        "fetched": false
+      },
+      "FTX": {
+        "disabled": false,
+        "fetched": true
+      },
+      "HITETH": {
+        "disabled": true,
+        "fetched": false
+      },
+      "HUOBI": {
+        "disabled": true,
+        "fetched": false
+      },
+      "KRAKEN": {
+        "disabled": false,
+        "fetched": true
+      },
+      "OKEX": {
+        "disabled": true,
+        "fetched": false
+      },
+      "PHEMEX": {
+        "disabled": true,
+        "fetched": false
+      },
+      "POLONIEX": {
+        "disabled": false,
+        "fetched": true
+      },
+      "_id": "exchanges"
+    },
+    "chart": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "volume": {
+          "enabled": true,
+          "name": "Volume",
+          "description": "Volume + delta",
+          "script": "if (upColor === 0) {\n  if (options.showDelta) {\n    upColor = options.upBgColor\n    downColor = options.downBgColor\n  } else {\n    upColor = options.upColor\n    downColor = options.downColor\n  }\n}\n\nif (options.showDelta) {\n  plothistogram({ time: time, value: Math.abs(vbuy-vsell), color: vbuy - vsell > 0 ? options.upColor : options.downColor})\n}\n\nplothistogram({ time: time, value: vbuy + vsell, color: vbuy > vsell ? upColor : downColor })",
+          "options": {
+            "priceFormat": {
+              "type": "volume"
+            },
+            "upColor": "rgb(255,255,255)",
+            "downColor": "rgb(0,0,0)",
+            "priceScaleId": "volume",
+            "scaleMargins": {
+              "top": 0.84,
+              "bottom": 0
+            },
+            "showDelta": true,
+            "upBgColor": "rgba(255,255,255,0.75)",
+            "downBgColor": "rgba(255,51,81,0.5)",
+            "visible": true
+          },
+          "id": "volume",
+          "createdAt": 1648978452412,
+          "updatedAt": null,
+          "series": [
+            "volume",
+            "5gsi8699"
+          ],
+          "unsavedChanges": true,
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "perps-premium": {
+          "script": "perpAvg = (BYBIT:ETHUSD.close + FTX:ETH-PERP.close + BITMEX:ETHUSD.close + BINANCE_FUTURES:ethusd_perp.close) / 4\n\nspotAvg = (COINBASE:ETH-USD.close + BINANCE:ethusdt.close + BITFINEX:ETHUSD.close)/3\n\npremium = perpAvg - spotAvg\nbaseline = 0\n\nplotcloudarea(premium, baseline, title=PerpPrem)",
+          "name": "Perps Premium",
+          "options": {
+            "priceScaleId": "perps-premium",
+            "visible": true,
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "lowerLineColor": "rgba(119,255,0,0)",
+            "positiveColor": "rgba(33,150,243,0.48)",
+            "negativeColor": "rgba(233,30,99,0.5)",
+            "higherLineColor": "rgba(255,255,255,0)",
+            "priceFormat": {
+              "type": "price",
+              "minMove": "0.01",
+              "precision": 1
+            },
+            "scaleMargins": {
+              "top": 0.88,
+              "bottom": 0.02
+            }
+          },
+          "id": "perps-premium",
+          "priceScaleId": "right",
+          "series": [
+            "perps-premium"
+          ],
+          "displayName": "Perps Premium",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "delta-spot": {
+          "script": "_vbuy = (BINANCE:ethusdt.vbuy+BINANCE:ethusdc.vbuy+BITFINEX:ETHUSD.vbuy+BITSTAMP:ETHusd.vbuy+BITSTAMP:ETHusdt.vbuy+BITSTAMP:ETHusdc.vbuy+COINBASE:ETH-USDC.vbuy+COINBASE:ETH-USD.vbuy+COINBASE:ETH-USDT.vbuy+FTX:ETH/USD.vbuy+FTX:ETH/USDT.vbuy+HUOBI:ETHusdt.vbuy+HUOBI:ETHusdc.vbuy+KRAKEN:ETH/USDC.vbuy+KRAKEN:ETH/USDT.vbuy+KRAKEN:ETH/USD.vbuy+OKEX:ETH-USDT.vbuy+OKEX:ETH-USDC.vbuy+POLONIEX:USDT_ETH.vbuy+POLONIEX:USDC_ETH.vbuy)\n\n_vsell = (BINANCE:ethusdt.vsell+BINANCE:ethusdc.vsell+BITFINEX:ETHUSD.vsell+BITSTAMP:ETHusd.vsell+BITSTAMP:ETHusdt.vsell+BITSTAMP:ETHusdc.vsell+COINBASE:ETH-USDC.vsell+COINBASE:ETH-USD.vsell+COINBASE:ETH-USDT.vsell+FTX:ETH/USD.vsell+FTX:ETH/USDT.vsell+HUOBI:ETHusdt.vsell+HUOBI:ETHusdc.vsell+KRAKEN:ETH/USDC.vsell+KRAKEN:ETH/USDT.vsell+KRAKEN:ETH/USD.vsell+OKEX:ETH-USDT.vsell+OKEX:ETH-USDC.vsell+POLONIEX:USDT_ETH.vsell+POLONIEX:USDC_ETH.vsell)\n\nplothistogram({ time: time, value: (_vbuy-_vsell), color: _vbuy - _vsell > 0 ? options.upColor : options.downColor}, title=Delta Spot)",
+          "name": "Delta Spot",
+          "options": {
+            "priceScaleId": "delta-spot",
+            "upColor": "rgb(0,150,136)",
+            "downColor": "rgb(236,64,122)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.59,
+              "bottom": 0.28
+            }
+          },
+          "id": "delta-spot",
+          "priceScaleId": "right",
+          "series": [
+            "delta-spot"
+          ],
+          "displayName": "Delta Spot",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "delta-perps": {
+          "script": "_vbuy = (BINANCE_FUTURES:ethusdt.vbuy+BINANCE_FUTURES:ethusd_perp.vbuy+BITFINEX:ETHF0:USTF0.vbuy+BITMEX:ETHUSD.vbuy+BYBIT:ETHUSD.vbuy+BYBIT:ETHUSDT.vbuy+DERIBIT:ETH-PERPETUAL.vbuy+FTX:ETH-PERP.vbuy+HUOBI:ETH-USD.vbuy+KRAKEN:PI_ETHUSD.vbuy+OKEX:ETH-USDT-SWAP.vbuy+OKEX:ETH-USD-SWAP.vbuy)\n\n_vsell = (BINANCE_FUTURES:ethusdt.vsell+BINANCE_FUTURES:ethusd_perp.vsell+BITFINEX:ETHF0:USTF0.vsell+BITMEX:ETHUSD.vsell+BYBIT:ETHUSD.vsell+BYBIT:ETHUSDT.vsell+DERIBIT:ETH-PERPETUAL.vsell+FTX:ETH-PERP.vsell+HUOBI:ETH-USD.vsell+KRAKEN:PI_ETHUSD.vsell+OKEX:ETH-USDT-SWAP.vsell+OKEX:ETH-USD-SWAP.vsell)\n\nplothistogram({ time: time, value: (_vbuy-_vsell), color: _vbuy - _vsell > 0 ? options.upColor : options.downColor}, title=Delta Perps)",
+          "name": "Delta Perps",
+          "options": {
+            "priceScaleId": "delta-perps",
+            "upColor": "rgb(100,181,246)",
+            "downColor": "rgb(239,83,80)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.73,
+              "bottom": 0.14
+            }
+          },
+          "id": "delta-perps",
+          "priceScaleId": "right",
+          "series": [
+            "delta-perps"
+          ],
+          "displayName": "Delta Perps",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "cvd-ETH-spot": {
+          "script": "line(cum((BINANCE:ethusdt.vbuy+BINANCE:ethusdc.vbuy+BITFINEX:ETHUSD.vbuy+BITSTAMP:ETHusd.vbuy+BITSTAMP:ETHusdt.vbuy+BITSTAMP:ETHusdc.vbuy+COINBASE:ETH-USDC.vbuy+COINBASE:ETH-USD.vbuy+COINBASE:ETH-USDT.vbuy+FTX:ETH/USD.vbuy+FTX:ETH/USDT.vbuy+HUOBI:ETHusdt.vbuy+HUOBI:ETHusdc.vbuy+KRAKEN:ETH/USDC.vbuy+KRAKEN:ETH/USDT.vbuy+KRAKEN:ETH/USD.vbuy+OKEX:ETH-USDT.vbuy+OKEX:ETH-USDC.vbuy+POLONIEX:USDT_ETH.vbuy+POLONIEX:USDC_ETH.vbuy)-(BINANCE:ethusdt.vsell+BINANCE:ethusdc.vsell+BITFINEX:ETHUSD.vsell+BITSTAMP:ETHusd.vsell+BITSTAMP:ETHusdt.vsell+BITSTAMP:ETHusdc.vsell+COINBASE:ETH-USDC.vsell+COINBASE:ETH-USD.vsell+COINBASE:ETH-USDT.vsell+FTX:ETH/USD.vsell+FTX:ETH/USDT.vsell+HUOBI:ETHusdt.vsell+HUOBI:ETHusdc.vsell+KRAKEN:ETH/USDC.vsell+KRAKEN:ETH/USDT.vsell+KRAKEN:ETH/USD.vsell+OKEX:ETH-USDT.vsell+OKEX:ETH-USDC.vsell+POLONIEX:USDT_ETH.vsell+POLONIEX:USDC_ETH.vsell)), title=SPOT)",
+          "name": "CVD ETH Spot",
+          "options": {
+            "priceScaleId": "cvd-ETH-spot",
+            "color": "rgba(100,181,246,0.65)",
+            "lineStyle": 1,
+            "lineWidth": 1,
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "cvd-ETH-spot",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-ETH-spot"
+          ],
+          "displayName": "CVD ETH Spot",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "cvd-ETH-perp": {
+          "script": "line(cum((BINANCE_FUTURES:ethusdt.vbuy+BINANCE_FUTURES:ethusd_perp.vbuy+BITFINEX:ETHF0:USTF0.vbuy+BITMEX:ETHUSD.vbuy+BYBIT:ETHUSD.vbuy+BYBIT:ETHUSDT.vbuy+DERIBIT:ETH-PERPETUAL.vbuy+FTX:ETH-PERP.vbuy+HUOBI:ETH-USD.vbuy+KRAKEN:PI_ETHUSD.vbuy+OKEX:ETH-USDT-SWAP.vbuy+OKEX:ETH-USD-SWAP.vbuy)- (BINANCE_FUTURES:ethusdt.vsell+BINANCE_FUTURES:ethusd_perp.vsell+BITFINEX:ETHF0:USTF0.vsell+BITMEX:ETHUSD.vsell+BYBIT:ETHUSD.vsell+BYBIT:ETHUSDT.vsell+DERIBIT:ETH-PERPETUAL.vsell+FTX:ETH-PERP.vsell+HUOBI:ETH-USD.vsell+KRAKEN:PI_ETHUSD.vsell+OKEX:ETH-USDT-SWAP.vsell+OKEX:ETH-USD-SWAP.vsell)), title=PERP)",
+          "name": "CVD ETH Perp",
+          "options": {
+            "priceScaleId": "cvd-ETH-perp",
+            "color": "rgba(240,98,146,0.7)",
+            "lineStyle": 1,
+            "lineWidth": 1,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "cvd-ETH-perp",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-ETH-perp"
+          ],
+          "displayName": "CVD ETH Perp",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "price2": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 2,
+              "minMove": 0.01
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.76)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(138,141,139,0.69)",
+            "borderDownColor": "rgba(145,145,145,0.73)",
+            "wickUpColor": "rgba(147,147,147,0.7)",
+            "wickDownColor": "rgba(166,159,160,0.72)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "price2",
+          "priceScaleId": "right",
+          "series": [
+            "price2"
+          ],
+          "displayName": "Price",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.26
+          }
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.17
+          }
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "cvdperp": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        },
+        "cvdspot": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        },
+        "ETHcvdspot": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        },
+        "ETHcvdperp": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        },
+        "perps-premium": {
+          "scaleMargins": {
+            "top": 0.88,
+            "bottom": 0.02
+          }
+        },
+        "delta-spot": {
+          "scaleMargins": {
+            "top": 0.59,
+            "bottom": 0.28
+          }
+        },
+        "delta-perps": {
+          "scaleMargins": {
+            "top": 0.73,
+            "bottom": 0.14
+          }
+        },
+        "cvd-ETH-spot": {
+          "scaleMargins": {
+            "top": 0.09,
+            "bottom": 0.43
+          }
+        },
+        "cvd-ETH-perp": {
+          "scaleMargins": {
+            "top": 0.09,
+            "bottom": 0.43
+          }
+        }
+      },
+      "layouting": false,
+      "timeframe": "300",
+      "refreshRate": 1000,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "forceNormalizePrice": false,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "hiddenMarkets": {},
+      "barSpacing": 5.36334224646027,
+      "_id": "chart"
+    },
+    "trades": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 22000,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 44000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 88000,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 440000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 50182.46697180767,
+          "buyColor": "rgba(0,151,167,0.06)",
+          "sellColor": "rgba(236,64,122,0.1)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 125414.4592581538,
+          "buyColor": "rgba(0,151,167,0.34)",
+          "sellColor": "rgba(236,64,122,0.22)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 502709.07691258244,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgba(38,166,154,0.79)",
+          "sellColor": "rgba(194,24,91,0.88)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 5023573.995040079,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(77,182,172)",
+          "sellColor": "rgb(240,98,146)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "showThresholdsAsTable": true,
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": null,
+      "audioVolume": 0.1,
+      "showTradesPairs": false,
+      "tradeType": "trades",
+      "showLogos": true,
+      "monochromeLogos": true,
+      "thresholdsMultipler": 0.44,
+      "_id": "trades"
+    },
+    "trades2": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 50000,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 100000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 200000,
+          "buyGif": "flying money",
+          "sellGif": "flying money",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 1000000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 50521.42563829867,
+          "buyColor": "rgb(0,19,20)",
+          "sellColor": "rgb(30,0,15)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "significant",
+          "amount": 300919.37215033185,
+          "buyColor": "rgb(0,50,51)",
+          "sellColor": "rgb(65,0,33)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 1000000,
+          "buyGif": "cash bullish",
+          "sellGif": "cash bearish",
+          "buyColor": "rgb(0,151,167)",
+          "sellColor": "rgb(127,0,63)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+        },
+        {
+          "id": "rare",
+          "amount": 10000000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(38,198,218)",
+          "sellColor": "rgb(236,64,122)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "max": false
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "showThresholdsAsTable": true,
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": null,
+      "audioVolume": 0.1,
+      "showTradesPairs": false,
+      "tradeType": "trades",
+      "showLogos": true,
+      "monochromeLogos": false,
+      "thresholdsMultipler": 1,
+      "_id": "trades2"
+    },
+    "chart2": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "cvd-binance-spot": {
+          "script": "plotline(sma(cum((BINANCE:ethusdt.vbuy) - (BINANCE:ethusdt.vsell)), 3), title=Binance Spot)",
+          "name": "CVD Binance Spot",
+          "options": {
+            "priceScaleId": "cvd-binance-spot",
+            "color": "rgb(251,192,45)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.1,
+              "bottom": 0.2
+            }
+          },
+          "id": "cvd-binance-spot",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-binance-spot"
+          ],
+          "displayName": "CVD Binance Spot",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "cvd-binance-perps": {
+          "script": "plotline(sma(cum((BINANCE_FUTURES:ethusd_perp.vbuy + BINANCE_FUTURES:ethusdt.vbuy) - (BINANCE_FUTURES:ethusd_perp.vsell + BINANCE_FUTURES:ethusdt.vsell)), 3), title=Binance Perps)",
+          "name": "CVD Binance Perps",
+          "options": {
+            "priceScaleId": "cvd-binance-perps",
+            "color": "rgb(251,192,45)",
+            "lineStyle": 1,
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.1,
+              "bottom": 0.2
+            }
+          },
+          "id": "cvd-binance-perps",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-binance-perps"
+          ],
+          "displayName": "CVD Binance Perps",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "price2": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 2,
+              "minMove": 0.01
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.76)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(138,141,139,0.69)",
+            "borderDownColor": "rgba(145,145,145,0.73)",
+            "wickUpColor": "rgba(147,147,147,0.7)",
+            "wickDownColor": "rgba(166,159,160,0.72)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "price2",
+          "priceScaleId": "right",
+          "series": [
+            "price2"
+          ],
+          "displayName": "Price",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.26
+          }
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.17
+          }
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "cvd-binance-spot": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        },
+        "cvd-binance-perps": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        }
+      },
+      "layouting": false,
+      "timeframe": "300",
+      "refreshRate": 1000,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "forceNormalizePrice": false,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "hiddenMarkets": {},
+      "barSpacing": 3.2016725186549913,
+      "_id": "chart2"
+    },
+    "chart3": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "cvd-coinbase": {
+          "script": "plotline(sma(cum((COINBASE:ETH-USD.vbuy + COINBASE:ETH-USDT.vbuy + COINBASE:ETH-USDC.vbuy)-(COINBASE:ETH-USD.vsell + COINBASE:ETH-USDT.vsell + COINBASE:ETH-USDC.vsell)), 3), title=Coinbase)",
+          "name": "CVD Coinbase",
+          "options": {
+            "priceScaleId": "cvd-coinbase",
+            "color": "rgb(25,118,210)",
+            "visible": true,
+            "lastValueVisible": false,
+            "scaleMargins": {
+              "top": 0.11,
+              "bottom": 0
+            }
+          },
+          "id": "cvd-coinbase",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-coinbase"
+          ],
+          "displayName": "CVD Coinbase",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "cvd-bitmex": {
+          "script": "plotline(sma(cum((BITMEX:ETHUSD.vbuy) - (BITMEX:ETHUSD.vsell)), 3), title=Bitmex)",
+          "name": "CVD BitMex",
+          "options": {
+            "priceScaleId": "cvd-bitmex",
+            "color": "rgb(233,30,99)",
+            "lineStyle": 1,
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.1,
+              "bottom": 0.2
+            }
+          },
+          "id": "cvd-bitmex",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-bitmex"
+          ],
+          "displayName": "CVD BitMex",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "price2": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 2,
+              "minMove": 0.01
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.76)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(138,141,139,0.69)",
+            "borderDownColor": "rgba(145,145,145,0.73)",
+            "wickUpColor": "rgba(147,147,147,0.7)",
+            "wickDownColor": "rgba(166,159,160,0.72)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "price2",
+          "priceScaleId": "right",
+          "series": [
+            "price2"
+          ],
+          "displayName": "Price",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.26
+          }
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.17
+          }
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "cvd-binance-perps": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        },
+        "cvd-coinbase": {
+          "scaleMargins": {
+            "top": 0.11,
+            "bottom": 0
+          }
+        },
+        "cvd-bitmex": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        }
+      },
+      "layouting": false,
+      "timeframe": "300",
+      "refreshRate": 1000,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "forceNormalizePrice": false,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "hiddenMarkets": {},
+      "barSpacing": 4.092869471056077,
+      "_id": "chart3"
+    },
+    "chart4": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "cvd-ftx-spot": {
+          "script": "plotline(sma(cum((FTX:ETH/USDT.vbuy + FTX:ETH/USD.vbuy) - (FTX:ETH/USDT.vsell + FTX:ETH/USD.vsell)), 3), title=FTX spot)",
+          "name": "CVD FTX Spot",
+          "options": {
+            "priceScaleId": "cvd-ftx-spot",
+            "color": "rgb(119,119,119)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.1,
+              "bottom": 0.2
+            }
+          },
+          "id": "cvd-ftx-spot",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-ftx-spot"
+          ],
+          "displayName": "CVD FTX Spot",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "cvd-ftx-perps": {
+          "script": "plotline(sma(cum((FTX:ETH-PERP.vbuy) - (FTX:ETH-PERP.vsell)), 3), title=FTX perps)",
+          "name": "CVD FTX Perps",
+          "options": {
+            "priceScaleId": "cvd-ftx-perps",
+            "color": "rgb(117,117,117)",
+            "lineStyle": 1,
+            "scaleMargins": {
+              "top": 0.1,
+              "bottom": 0.2
+            }
+          },
+          "id": "cvd-ftx-perps",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-ftx-perps"
+          ],
+          "displayName": "CVD FTX Perps",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "price2": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 2,
+              "minMove": 0.01
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.76)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(138,141,139,0.69)",
+            "borderDownColor": "rgba(145,145,145,0.73)",
+            "wickUpColor": "rgba(147,147,147,0.7)",
+            "wickDownColor": "rgba(166,159,160,0.72)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "price2",
+          "priceScaleId": "right",
+          "series": [
+            "price2"
+          ],
+          "displayName": "Price",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.26
+          }
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.17
+          }
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "cvd-ftx-spot": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        },
+        "delta-ftx-perps": {
+          "scaleMargins": {
+            "top": 0.81,
+            "bottom": 0.07
+          }
+        },
+        "cvd-ftx-perps": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        }
+      },
+      "layouting": false,
+      "timeframe": "300",
+      "refreshRate": 1000,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "forceNormalizePrice": false,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "hiddenMarkets": {},
+      "barSpacing": 3.1741516061388997,
+      "_id": "chart4"
+    },
+    "chart5": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "cvd-bitfinex-spot": {
+          "script": "plotline(sma(cum(BITFINEX:ETHUSD.vbuy-BITFINEX:ETHUSD.vsell), 3), title=Bitfinex Spot)",
+          "name": "CVD Bitfinex Spot",
+          "options": {
+            "priceScaleId": "cvd-bitfinex-spot2",
+            "color": "rgb(56,142,60)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.1,
+              "bottom": 0.2
+            }
+          },
+          "id": "cvd-bitfinex-spot",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-bitfinex-spot"
+          ],
+          "displayName": "CVD Bitfinex Spot",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "cvd-bitfinex-perps": {
+          "script": "line(sma(cum(BITFINEX:ETHF0:USTF0.vbuy - BITFINEX:ETHF0:USTF0.vsell), 3), title=BitfinexPerps)",
+          "name": "CVD Bitfinex Perps",
+          "options": {
+            "priceScaleId": "cvd-bitfinex-perps",
+            "color": "rgb(56,142,60)",
+            "lineStyle": 1,
+            "scaleMargins": {
+              "top": 0.1,
+              "bottom": 0.2
+            }
+          },
+          "id": "cvd-bitfinex-perps",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-bitfinex-perps"
+          ],
+          "displayName": "CVD Bitfinex Perps",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "price2": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 2,
+              "minMove": 0.01
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.76)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(138,141,139,0.69)",
+            "borderDownColor": "rgba(145,145,145,0.73)",
+            "wickUpColor": "rgba(147,147,147,0.7)",
+            "wickDownColor": "rgba(166,159,160,0.72)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "price2",
+          "priceScaleId": "right",
+          "series": [
+            "price2"
+          ],
+          "displayName": "Price",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.26
+          }
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.17
+          }
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "cvd-bitfinex-spot2": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        },
+        "cvd-bitfinex-perps": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        }
+      },
+      "layouting": false,
+      "timeframe": "300",
+      "refreshRate": 1000,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "forceNormalizePrice": false,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "hiddenMarkets": {},
+      "barSpacing": 3.843371489499089,
+      "_id": "chart5"
+    },
+    "chart6": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "cvd-bybit-perps": {
+          "script": "plotline(sma(cum((BYBIT:ETHUSD.vbuy + BYBIT:ETHUSDT.vbuy) - (BYBIT:ETHUSD.vsell + BYBIT:ETHUSDT.vsell)), 3), title=Bybit)",
+          "name": "CVD Bybit Perps",
+          "options": {
+            "priceScaleId": "cvd-bybit-perps",
+            "color": "rgba(255,238,88,0.5)",
+            "lineStyle": 1,
+            "scaleMargins": {
+              "top": 0.1,
+              "bottom": 0.2
+            }
+          },
+          "id": "cvd-bybit-perps",
+          "priceScaleId": "right",
+          "series": [
+            "cvd-bybit-perps"
+          ],
+          "displayName": "CVD Bybit Perps",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "price2": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 2,
+              "minMove": 0.01
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.76)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(138,141,139,0.69)",
+            "borderDownColor": "rgba(145,145,145,0.73)",
+            "wickUpColor": "rgba(147,147,147,0.7)",
+            "wickDownColor": "rgba(166,159,160,0.72)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "price2",
+          "priceScaleId": "right",
+          "series": [
+            "price2"
+          ],
+          "displayName": "Price",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.26
+          }
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.17
+          }
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "cvd-bybit-perps": {
+          "scaleMargins": {
+            "top": 0.1,
+            "bottom": 0.2
+          }
+        }
+      },
+      "layouting": false,
+      "timeframe": "300",
+      "refreshRate": 1000,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "forceNormalizePrice": false,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "hiddenMarkets": {},
+      "barSpacing": 3.5472214558755577,
+      "_id": "chart6"
+    },
+    "chart7": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "price": {
+          "enabled": true,
+          "name": "Price",
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 2,
+              "minMove": 0.01
+            },
+            "priceLineVisible": true,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(100, 157, 102, 0)",
+            "downColor": "rgb(156,52,62)",
+            "borderUpColor": "rgb(59, 202, 109)",
+            "borderDownColor": "rgb(239,67,82)",
+            "wickUpColor": "rgb(59, 202, 109)",
+            "wickDownColor": "rgb(239,67,82)",
+            "visible": false
+          },
+          "id": "price",
+          "createdAt": 1648978452412,
+          "updatedAt": null,
+          "series": [
+            "price"
+          ],
+          "unsavedChanges": true
+        },
+        "all-markets": {
+          "script": "plotline(BITFINEX:ETHUSD.close, color=rgb(151,197,84), title=Bitfinex.spot)\nplotline(BINANCE:ethusdt.close, color=yellow, title=Binance.spot)\nplotline(OKEX:ETH-USDT.close, color=transparent, title=Okex.spot)\nplotline(KRAKEN:ETH/USD.close, color=transparent, title=Kraken.spot)\nplotline(COINBASE:ETH-USD.close, color=rgb(22,82,240), title=Coinbase.spot)\nplotline(POLONIEX:USDT_ETH.close, color=transparent, title=Poloniex.spot)\nplotline(HUOBI:ETHusdt.close, color=transparent, title=Huobi.spot)\nplotline(BITSTAMP:ETHusd.close, color=transparent, title=Bitstamp.spot)\nplotline(BITMEX:ETHUSD.close, color=rgb(255,71,71), title=Bitmex.perp)\nplotline(BITFINEX:ETHF0:USTF0.close, color=transparent, title=Bitfinex.perp)\nplotline(OKEX:ETH-USD-SWAP.close, color=transparent, title=Okex.perp)\nplotline(BINANCE_FUTURES:ethusdt.close, color=transparent, title=Binance.perp)\nplotline(BINANCE_FUTURES:ethusd_perp.close, color=transparent, title=Binance.perp)\nplotline(HUOBI:ETH-USD.close, color=transparent, title=Huobi.perp)\nplotline(KRAKEN:PI_ETHUSD.close, color=transparent, title=Kraken.perp)\nplotline(DERIBIT:ETH-PERPETUAL.close, color=transparent, title=Deribit.perp)\nplotline(FTX:ETH-PERP.close, color=rgb(94,98,98), title=Ftx.perp)\nplotline(BYBIT:ETHUSD.close, color=rgb(255,177,26), title=Bybit.perp)",
+          "name": "All markets",
+          "options": {
+            "priceScaleId": "right",
+            "spotColor": "#81c784",
+            "futuresColor": "#ec407a",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.11,
+              "bottom": 0
+            }
+          },
+          "id": "all-markets",
+          "priceScaleId": "right",
+          "series": [
+            "all-markets",
+            "w8i2hox3",
+            "pmyrvskj",
+            "xz26m4v0",
+            "7rlpioa8",
+            "x19c7j0e",
+            "dhma0vxl",
+            "yrxyqtgr",
+            "8xg62nww",
+            "j502xj9d",
+            "bs5mdekn",
+            "lbzsmjhl",
+            "ne1ztczd",
+            "rr0wdlog",
+            "m637kgrr",
+            "b4eqkfdl",
+            "t9wgr97b",
+            "cey15pho"
+          ],
+          "displayName": "All markets",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.26
+          }
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.17
+          }
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        }
+      },
+      "layouting": false,
+      "timeframe": "300",
+      "refreshRate": 1000,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "forceNormalizePrice": false,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": false,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "hiddenMarkets": {},
+      "barSpacing": 3.456210746601015,
+      "_id": "chart7"
+    },
+    "chart8": {
+      "indicatorsErrors": {},
+      "indicators": {
+        "delta-binance-spot": {
+          "script": "_vbuy = (BINANCE:ethusdt.vbuy+BINANCE:ethusdc.vbuy)\n\n_vsell = (BINANCE:ethusdt.vsell+BINANCE:ethusdc.vsell)\n\nplothistogram({ time: time, value: (_vbuy-_vsell), color: _vbuy - _vsell > 0 ? options.upColor : options.downColor}, title=Binance Spot)",
+          "name": "Delta Binance Spot",
+          "options": {
+            "priceScaleId": "delta-binance-spot",
+            "upColor": "rgb(0,150,136)",
+            "downColor": "rgb(233,30,99)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.24,
+              "bottom": 0.64
+            }
+          },
+          "id": "delta-binance-spot",
+          "priceScaleId": "right",
+          "series": [
+            "delta-binance-spot"
+          ],
+          "displayName": "Delta Binance Spot",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "delta-coinbase": {
+          "script": "_vbuy = (COINBASE:ETH-USDC.vbuy+COINBASE:ETH-USD.vbuy+COINBASE:ETH-USDT.vbuy)\n\n_vsell = (COINBASE:ETH-USDC.vsell+COINBASE:ETH-USD.vsell+COINBASE:ETH-USDT.vsell)\n\nplothistogram({ time: time, value: (_vbuy-_vsell), color: _vbuy - _vsell > 0 ? options.upColor : options.downColor}, title=Coinbase)",
+          "name": "Delta Coinbase",
+          "options": {
+            "priceScaleId": "delta-coinbase",
+            "color": "rgb(0,150,136)",
+            "upColor": "rgb(0,150,136)",
+            "downColor": "rgb(233,30,99)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.36,
+              "bottom": 0.52
+            }
+          },
+          "id": "delta-coinbase",
+          "priceScaleId": "right",
+          "series": [
+            "delta-coinbase"
+          ],
+          "displayName": "Delta Coinbase",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "delta-bybit-perps": {
+          "script": "_vbuy = (BYBIT:ETHUSD.vbuy + BYBIT:ETHUSDT.vbuy)\n\n_vsell = (BYBIT:ETHUSD.vsell + BYBIT:ETHUSDT.vsell)\n\nplothistogram({ time: time, value: (_vbuy-_vsell), color: _vbuy - _vsell > 0 ? options.upColor : options.downColor}, title=Bybit)",
+          "name": "Delta Bybit Perps",
+          "options": {
+            "priceScaleId": "delta-bybit-perps",
+            "upColor": "rgb(0,150,136)",
+            "downColor": "rgb(233,30,99)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.57,
+              "bottom": 0.31
+            }
+          },
+          "id": "delta-bybit-perps",
+          "priceScaleId": "right",
+          "series": [
+            "delta-bybit-perps"
+          ],
+          "displayName": "Delta Bybit Perps",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "delta-ftx-spot": {
+          "script": "_vbuy = (FTX:ETH/USD.vbuy+FTX:ETH/USDT.vbuy)\n\n_vsell = (FTX:ETH/USD.vsell+FTX:ETH/USDT.vsell)\n\nplothistogram({ time: time, value: (_vbuy-_vsell), color: _vbuy - _vsell > 0 ? options.upColor : options.downColor}, title=FTX Spot)",
+          "name": "Delta FTX Spot",
+          "options": {
+            "priceScaleId": "delta-ftx-spot",
+            "upColor": "rgb(0,150,136)",
+            "downColor": "rgb(233,30,99)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.48,
+              "bottom": 0.4
+            }
+          },
+          "id": "delta-ftx-spot",
+          "priceScaleId": "right",
+          "series": [
+            "delta-ftx-spot"
+          ],
+          "displayName": "Delta FTX Spot",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "delta-ftx-perps": {
+          "script": "_vbuy = (FTX:ETH-PERP.vbuy)\n\n_vsell = (FTX:ETH-PERP.vsell)\n\nplothistogram({ time: time, value: (_vbuy-_vsell), color: _vbuy - _vsell > 0 ? options.upColor : options.downColor}, title=FTX Perp)",
+          "name": "Delta FTX Perps",
+          "options": {
+            "priceScaleId": "delta-ftx-perps",
+            "upColor": "rgb(0,150,136)",
+            "downColor": "rgb(233,30,99)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.81,
+              "bottom": 0.07
+            }
+          },
+          "id": "delta-ftx-perps",
+          "priceScaleId": "right",
+          "series": [
+            "delta-ftx-perps"
+          ],
+          "displayName": "Delta FTX Perps",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "delta-bitmex": {
+          "script": "_vbuy = (BITMEX:ETHUSD.vbuy)\n\n_vsell = (BITMEX:ETHUSD.vsell)\n\nplothistogram({ time: time, value: (_vbuy-_vsell), color: _vbuy - _vsell > 0 ? options.upColor : options.downColor}, title=Bitmex)",
+          "name": "Delta BitMex",
+          "options": {
+            "priceScaleId": "delta-bitmex",
+            "upColor": "rgb(0,150,136)",
+            "downColor": "rgb(233,30,99)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.69,
+              "bottom": 0.19
+            }
+          },
+          "id": "delta-bitmex",
+          "priceScaleId": "right",
+          "series": [
+            "delta-bitmex"
+          ],
+          "displayName": "Delta BitMex",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        },
+        "price2": {
+          "script": "plotcandlestick(avg_ohlc(bar))",
+          "name": "Price",
+          "options": {
+            "priceScaleId": "right",
+            "priceFormat": {
+              "auto": true,
+              "precision": 2,
+              "minMove": 0.01
+            },
+            "priceLineVisible": false,
+            "lastValueVisible": true,
+            "borderVisible": true,
+            "upColor": "rgba(255,255,255,0.76)",
+            "downColor": "rgb(0,0,0)",
+            "borderUpColor": "rgba(138,141,139,0.69)",
+            "borderDownColor": "rgba(145,145,145,0.73)",
+            "wickUpColor": "rgba(147,147,147,0.7)",
+            "wickDownColor": "rgba(166,159,160,0.72)",
+            "visible": true,
+            "scaleMargins": {
+              "top": 0.09,
+              "bottom": 0.43
+            }
+          },
+          "id": "price2",
+          "priceScaleId": "right",
+          "series": [
+            "price2"
+          ],
+          "displayName": "Price",
+          "navigationState": {
+            "sections": [
+              "position",
+              "colors"
+            ],
+            "tab": 0,
+            "optionsQuery": "",
+            "fontSize": 1
+          }
+        }
+      },
+      "priceScales": {
+        "right": {
+          "scaleMargins": {
+            "top": 0.04,
+            "bottom": 0.26
+          }
+        },
+        "cvd": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "volume_liquidations": {
+          "scaleMargins": {
+            "top": 0.75,
+            "bottom": 0.17
+          }
+        },
+        "volume": {
+          "scaleMargins": {
+            "top": 0.84,
+            "bottom": 0
+          }
+        },
+        "delta-binance-spot": {
+          "scaleMargins": {
+            "top": 0.24,
+            "bottom": 0.64
+          }
+        },
+        "delta-coinbase": {
+          "scaleMargins": {
+            "top": 0.36,
+            "bottom": 0.52
+          }
+        },
+        "delta-bybit-perps": {
+          "scaleMargins": {
+            "top": 0.57,
+            "bottom": 0.31
+          }
+        },
+        "delta-ftx-spot": {
+          "scaleMargins": {
+            "top": 0.48,
+            "bottom": 0.4
+          }
+        },
+        "delta-ftx-perps": {
+          "scaleMargins": {
+            "top": 0.81,
+            "bottom": 0.07
+          }
+        },
+        "delta-bitmex": {
+          "scaleMargins": {
+            "top": 0.69,
+            "bottom": 0.19
+          }
+        }
+      },
+      "layouting": false,
+      "timeframe": "60",
+      "refreshRate": 1000,
+      "showLegend": true,
+      "fillGapsWithEmpty": true,
+      "forceNormalizePrice": false,
+      "showHorizontalGridlines": false,
+      "horizontalGridlinesColor": "rgba(255,255,255,.1)",
+      "showVerticalGridlines": false,
+      "verticalGridlinesColor": "rgba(255,255,255,.1)",
+      "showWatermark": true,
+      "watermarkColor": "rgba(255,255,255,.1)",
+      "hiddenMarkets": {},
+      "barSpacing": 4.5965324688331215,
+      "_id": "chart8"
+    }
+  }
+}
