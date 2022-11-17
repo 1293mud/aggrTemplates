@@ -1,0 +1,1617 @@
+{
+  "version": 5,
+  "createdAt": 1668714256609,
+  "updatedAt": 1668715397205,
+  "name": "TAPE_ETH copy 1",
+  "id": "tape-eth-copy-1",
+  "states": {
+    "panes": {
+      "_id": "panes",
+      "locked": false,
+      "panes": {
+        "trades4": {
+          "id": "trades4",
+          "name": "ETH:PERP",
+          "type": "trades",
+          "settings": {
+            "liquidations": {
+              "id": "liquidations",
+              "amount": 50000,
+              "buyColor": "rgb(103,58,183)",
+              "sellColor": "rgb(103,58,183)",
+              "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*5,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.1,,,'sine')",
+              "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*5,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.1,,,'sine')"
+            },
+            "thresholds": [
+              {
+                "id": "threshold",
+                "amount": 100000,
+                "buyColor": "rgb(178,223,219)",
+                "sellColor": "rgb(209,196,233)",
+                "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 6)",
+                "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 6)"
+              },
+              {
+                "id": "significant",
+                "amount": 250000,
+                "buyColor": "rgb(128,203,196)",
+                "sellColor": "rgb(179,157,219)",
+                "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+                "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+              },
+              {
+                "id": "huge",
+                "amount": 1000000,
+                "gif": "cash",
+                "buyColor": "rgb(77,182,172)",
+                "sellColor": "rgb(149,117,205)",
+                "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+                "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+              },
+              {
+                "id": "rare",
+                "amount": 10000000,
+                "gif": "explosion",
+                "buyColor": "rgb(38,166,154)",
+                "sellColor": "rgb(126,87,194)",
+                "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+                "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+              }
+            ],
+            "audioThreshold": null,
+            "multipliers": {},
+            "showThresholdsAsTable": true,
+            "maxRows": 100,
+            "muted": false,
+            "audioPitch": null,
+            "audioVolume": null,
+            "showTradesPairs": false,
+            "tradeType": "trades",
+            "showLogos": true,
+            "monochromeLogos": true,
+            "_booted": true
+          },
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT-SWAP",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT"
+          ],
+          "zoom": 0.875
+        },
+        "trades6": {
+          "id": "trades6",
+          "name": "ETH:SPOT",
+          "type": "trades",
+          "settings": {
+            "liquidations": {
+              "id": "liquidations",
+              "amount": 50000,
+              "buyColor": "rgb(103,58,183)",
+              "sellColor": "rgb(103,58,183)",
+              "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*5,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.1,,,'sine')",
+              "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*5,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.1,,,'sine')"
+            },
+            "thresholds": [
+              {
+                "id": "threshold",
+                "amount": 100000,
+                "buyColor": "rgb(178,223,219)",
+                "sellColor": "rgb(209,196,233)",
+                "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 6)",
+                "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 6)"
+              },
+              {
+                "id": "significant",
+                "amount": 250000,
+                "buyColor": "rgb(128,203,196)",
+                "sellColor": "rgb(179,157,219)",
+                "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+                "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+              },
+              {
+                "id": "huge",
+                "amount": 1000000,
+                "gif": "cash",
+                "buyColor": "rgb(77,182,172)",
+                "sellColor": "rgb(149,117,205)",
+                "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+                "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)"
+              },
+              {
+                "id": "rare",
+                "amount": 10000000,
+                "gif": "explosion",
+                "buyColor": "rgb(38,166,154)",
+                "sellColor": "rgb(126,87,194)",
+                "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+                "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+              }
+            ],
+            "audioThreshold": null,
+            "multipliers": {},
+            "showThresholdsAsTable": true,
+            "maxRows": 100,
+            "muted": false,
+            "audioPitch": null,
+            "audioVolume": null,
+            "showTradesPairs": false,
+            "tradeType": "trades",
+            "showLogos": true,
+            "monochromeLogos": true,
+            "_booted": true
+          },
+          "markets": [
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSDC-SPOT",
+            "BYBIT:ETHUSDT-SPOT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDT",
+            "PHEMEX:sETHUSDC",
+            "PHEMEX:sETHUSDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "zoom": 0.875
+        },
+        "rekts": {
+          "id": "rekts",
+          "name": "ETH:REKTS",
+          "type": "trades",
+          "settings": {
+            "liquidations": {
+              "id": "liquidations",
+              "amount": 100000,
+              "buyColor": "rgb(103,58,183)",
+              "sellColor": "rgb(103,58,183)",
+              "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*5,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.1,,,'sine')",
+              "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*5,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.1,,,'sine')"
+            },
+            "thresholds": [
+              {
+                "id": "threshold",
+                "amount": 10000,
+                "buyColor": "rgb(77,182,172)",
+                "sellColor": "rgb(149,117,205)",
+                "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+                "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+              },
+              {
+                "id": "significant",
+                "amount": 25000,
+                "buyColor": "rgb(38,166,154)",
+                "sellColor": "rgb(126,87,194)",
+                "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+                "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+              },
+              {
+                "id": "huge",
+                "amount": 100000,
+                "gif": "rip coffin",
+                "buyColor": "rgb(0,121,107)",
+                "sellColor": "rgb(81,45,168)",
+                "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+                "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+              },
+              {
+                "id": "rare",
+                "amount": 1000000,
+                "gif": "rip coffin",
+                "buyColor": "rgb(0,77,64)",
+                "sellColor": "rgb(49,27,146)",
+                "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+                "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+              }
+            ],
+            "audioThreshold": null,
+            "multipliers": {},
+            "showThresholdsAsTable": true,
+            "maxRows": 100,
+            "muted": false,
+            "audioPitch": null,
+            "audioVolume": null,
+            "showTradesPairs": false,
+            "tradeType": "liquidations",
+            "showLogos": true,
+            "monochromeLogos": true,
+            "_booted": true
+          },
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_211231",
+            "BINANCE_FUTURES:ethusd_220325",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BINANCE_FUTURES:ethusdt_211231",
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "FTX:ETH/USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ETH_CQ",
+            "HUOBI:ETH_CW",
+            "HUOBI:ETH_NQ",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "KRAKEN:FI_ETHUSD_211029",
+            "KRAKEN:FI_ETHUSD_211231",
+            "KRAKEN:FI_ETHUSD_220325",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-211015",
+            "OKEX:ETH-USD-211022",
+            "OKEX:ETH-USD-211231",
+            "OKEX:ETH-USD-220325",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT",
+            "OKEX:ETH-USDT-211015",
+            "OKEX:ETH-USDT-211022",
+            "OKEX:ETH-USDT-211231",
+            "OKEX:ETH-USDT-220325",
+            "OKEX:ETH-USDT-SWAP",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "zoom": 0.875
+        },
+        "counters copy 1": {
+          "id": "counters copy 1",
+          "name": "PERP ",
+          "type": "counters",
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT-SWAP",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT"
+          ]
+        },
+        "counters copy 2": {
+          "id": "counters copy 2",
+          "name": "SPOT",
+          "type": "counters",
+          "markets": [
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDC-SPOT",
+            "BYBIT:ETHUSDT-SPOT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "DYDX:ETH-USD",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDT",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT",
+            "PHEMEX:sETHUSDC",
+            "PHEMEX:sETHUSDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ]
+        }
+      },
+      "layout": [
+        {
+          "i": "trades4",
+          "type": "trades",
+          "w": 12,
+          "h": 22,
+          "y": 1,
+          "x": 12,
+          "moved": false
+        },
+        {
+          "i": "trades6",
+          "type": "trades",
+          "w": 12,
+          "h": 18,
+          "y": 1,
+          "x": 0,
+          "moved": false
+        },
+        {
+          "i": "rekts",
+          "type": "trades",
+          "w": 12,
+          "h": 4,
+          "y": 19,
+          "x": 0,
+          "moved": false
+        },
+        {
+          "i": "counters copy 1",
+          "type": "counters",
+          "y": 0,
+          "x": 12,
+          "w": 12,
+          "h": 1,
+          "moved": false
+        },
+        {
+          "i": "counters copy 2",
+          "type": "counters",
+          "y": 0,
+          "x": 0,
+          "w": 12,
+          "h": 1,
+          "moved": false
+        }
+      ]
+    },
+    "settings": {
+      "_id": "settings",
+      "preferQuoteCurrencySize": true,
+      "aggregationLength": 100,
+      "disableAnimations": false,
+      "calculateSlippage": null,
+      "autoHideHeaders": true,
+      "theme": "dark",
+      "backgroundColor": "rgb(23,27,41)",
+      "textColor": "",
+      "buyColor": "rgb(100, 157, 102)",
+      "sellColor": "rgb(239, 67, 82)",
+      "timezoneOffset": -18000000,
+      "useAudio": true,
+      "audioVolume": 0.2,
+      "audioFilters": {
+        "PingPongDelay": true,
+        "Compressor": false,
+        "Delay": false,
+        "HighPassFilter": true,
+        "LowPassFilter": false,
+        "Chorus": false
+      },
+      "settings": [
+        "other",
+        "chart",
+        "stats",
+        "counters",
+        "audio",
+        "exchanges",
+        "workspaces",
+        "list"
+      ],
+      "searchSections": [
+        "exchanges",
+        "extras",
+        "quotes",
+        "types"
+      ],
+      "searchTypes": {
+        "historical": false,
+        "spots": false,
+        "perpetuals": true,
+        "futures": false,
+        "normalize": false,
+        "mergeUsdt": true
+      },
+      "searchQuotes": {
+        "USD": true,
+        "USDT": true,
+        "UST": true,
+        "BUSD": true,
+        "USDC": true
+      },
+      "previousSearchSelections": [
+        {
+          "label": "ETHUSD+ETHTUSD+SETHUSD",
+          "markets": [
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDC-SPOT",
+            "BYBIT:ETHUSDT-SPOT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "DYDX:ETH-USD",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDT",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT",
+            "PHEMEX:sETHUSDC",
+            "PHEMEX:sETHUSDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 36
+        },
+        {
+          "label": "ETHUSD+ETHTUSD+SETHUSD",
+          "markets": [
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSDC-SPOT",
+            "BYBIT:ETHUSDT-SPOT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDT",
+            "PHEMEX:sETHUSDC",
+            "PHEMEX:sETHUSDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 32
+        },
+        {
+          "label": "ETHUSD+ETHTUSD",
+          "markets": [
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSDC-SPOT",
+            "BYBIT:ETHUSDT-SPOT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 30
+        },
+        {
+          "label": "ETHUSD+PFETHUSD",
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT-SWAP",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT"
+          ],
+          "count": 20
+        },
+        {
+          "label": "ETHUSD+ETHTUSD",
+          "markets": [
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDC-SPOT",
+            "BYBIT:ETHUSDT-SPOT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "DYDX:ETH-USD",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDT",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 34
+        },
+        {
+          "label": "ETHUSD+ETHTUSD+ETHWUSD+PFETHU...",
+          "markets": [
+            "BINANCE_FUTURES:ethusd_211231",
+            "BINANCE_FUTURES:ethusd_220325",
+            "BINANCE_FUTURES:ethusdt_211231",
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDC-SPOT",
+            "BYBIT:ETHUSDT",
+            "BYBIT:ETHUSDT-SPOT",
+            "BYBIT:ETHWUSDT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "FTX:ETH/USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ETH_CQ",
+            "HUOBI:ETH_CW",
+            "HUOBI:ETH_NQ",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "HUOBI:ETHW-USDT",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "KRAKEN:FI_ETHUSD_211029",
+            "KRAKEN:FI_ETHUSD_211231",
+            "KRAKEN:FI_ETHUSD_220325",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PF_ETHWUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-211015",
+            "OKEX:ETH-USD-211022",
+            "OKEX:ETH-USD-211231",
+            "OKEX:ETH-USD-220325",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT",
+            "OKEX:ETH-USDT-211015",
+            "OKEX:ETH-USDT-211022",
+            "OKEX:ETH-USDT-211231",
+            "OKEX:ETH-USDT-220325",
+            "OKEX:ETH-USDT-SWAP",
+            "OKEX:ETHW-USDT-SWAP",
+            "PHEMEX:cETHUSD",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 69
+        },
+        {
+          "label": "ETHUSD+ETHTUSD+PFETHUSD",
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_211231",
+            "BINANCE_FUTURES:ethusd_220325",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BINANCE_FUTURES:ethusdt_211231",
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "FTX:ETH/USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ETH_CQ",
+            "HUOBI:ETH_CW",
+            "HUOBI:ETH_NQ",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "KRAKEN:FI_ETHUSD_211029",
+            "KRAKEN:FI_ETHUSD_211231",
+            "KRAKEN:FI_ETHUSD_220325",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-211015",
+            "OKEX:ETH-USD-211022",
+            "OKEX:ETH-USD-211231",
+            "OKEX:ETH-USD-220325",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT",
+            "OKEX:ETH-USDT-211015",
+            "OKEX:ETH-USDT-211022",
+            "OKEX:ETH-USDT-211231",
+            "OKEX:ETH-USDT-220325",
+            "OKEX:ETH-USDT-SWAP",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 67
+        },
+        {
+          "label": "ETHUSD+ETHTUSD",
+          "markets": [
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSDC-SPOT",
+            "BYBIT:ETHUSDT-SPOT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USD",
+            "FTX:ETH/USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 32
+        },
+        {
+          "label": "ETHUSD+PFETHUSD+CETHUSD",
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT-SWAP",
+            "PHEMEX:cETHUSD",
+            "PHEMEX:ETHUSD",
+            "PHEMEX:ETHUSDT"
+          ],
+          "count": 21
+        },
+        {
+          "label": "ETHUSD+PFETHUSD",
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT-SWAP"
+          ],
+          "count": 18
+        },
+        {
+          "label": "BINANCE_FUTURES:ETHUSD",
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusdt"
+          ],
+          "count": 2
+        },
+        {
+          "label": "ETHUSD+ETHTUSD+PFETHUSD",
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_211231",
+            "BINANCE_FUTURES:ethusd_220325",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BINANCE_FUTURES:ethusdt_211231",
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITFINEX:ETHUSD",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "FTX:ETH-PERP",
+            "FTX:ETH/USD",
+            "FTX:ETH/USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ETH_CQ",
+            "HUOBI:ETH_CW",
+            "HUOBI:ETH_NQ",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "KRAKEN:FI_ETHUSD_211029",
+            "KRAKEN:FI_ETHUSD_211231",
+            "KRAKEN:FI_ETHUSD_220325",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-211015",
+            "OKEX:ETH-USD-211022",
+            "OKEX:ETH-USD-211231",
+            "OKEX:ETH-USD-220325",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT",
+            "OKEX:ETH-USDT-211015",
+            "OKEX:ETH-USDT-211022",
+            "OKEX:ETH-USDT-211231",
+            "OKEX:ETH-USDT-220325",
+            "OKEX:ETH-USDT-SWAP",
+            "PHEMEX:ETHUSD",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 66
+        },
+        {
+          "label": "ETHUSD+ETHTUSD",
+          "markets": [
+            "BINANCE_US:ethbusd",
+            "BINANCE_US:ethusd",
+            "BINANCE_US:ethusdc",
+            "BINANCE_US:ethusdt",
+            "BINANCE:ethbusd",
+            "BINANCE:ethtusd",
+            "BINANCE:ethusdc",
+            "BINANCE:ethusdt",
+            "BITFINEX:ETHUSD",
+            "BITSTAMP:ethusd",
+            "BITSTAMP:ethusdc",
+            "BITSTAMP:ethusdt",
+            "BYBIT:ETHUSDT-SPOT",
+            "COINBASE:ETH-USD",
+            "COINBASE:ETH-USDC",
+            "COINBASE:ETH-USDT",
+            "FTX:ETH/USD",
+            "FTX:ETH/USDT",
+            "HITBTC:ETHTUSD",
+            "HITBTC:ETHUSD",
+            "HITBTC:ETHUSDC",
+            "HUOBI:ethusdc",
+            "HUOBI:ethusdt",
+            "KRAKEN:ETH/USD",
+            "KRAKEN:ETH/USDC",
+            "KRAKEN:ETH/USDT",
+            "OKEX:ETH-USDC",
+            "OKEX:ETH-USDT",
+            "POLONIEX:TUSD_ETH",
+            "POLONIEX:USDC_ETH",
+            "POLONIEX:USDT_ETH"
+          ],
+          "count": 31
+        },
+        {
+          "label": "ETHUSD+ETHWUSD+PFETHUSD+PFETH...",
+          "markets": [
+            "BINANCE_FUTURES:ethbusd",
+            "BINANCE_FUTURES:ethusd_perp",
+            "BINANCE_FUTURES:ethusdt",
+            "BITFINEX:ETHF0:USTF0",
+            "BITMEX:ETHUSD",
+            "BITMEX:ETHUSDT",
+            "BYBIT:ETHUSD",
+            "BYBIT:ETHUSDT",
+            "BYBIT:ETHWUSDT",
+            "DERIBIT:ETH_USDC-PERPETUAL",
+            "DERIBIT:ETH-PERPETUAL",
+            "DYDX:ETH-USD",
+            "HUOBI:ETH-USD",
+            "HUOBI:ETH-USDT",
+            "HUOBI:ETHW-USDT",
+            "KRAKEN:PF_ETHUSD",
+            "KRAKEN:PF_ETHWUSD",
+            "KRAKEN:PI_ETHUSD",
+            "OKEX:ETH-USD-SWAP",
+            "OKEX:ETH-USDC-SWAP",
+            "OKEX:ETH-USDT-SWAP",
+            "OKEX:ETHW-USDT-SWAP",
+            "PHEMEX:ETHUSD"
+          ],
+          "count": 23
+        }
+      ],
+      "searchExchanges": {
+        "BINANCE": true,
+        "BINANCE_FUTURES": true,
+        "BINANCE_US": true,
+        "BITFINEX": true,
+        "BITMEX": true,
+        "BITSTAMP": true,
+        "BYBIT": true,
+        "COINBASE": true,
+        "DERIBIT": true,
+        "FTX": true,
+        "HITBTC": false,
+        "HUOBI": true,
+        "KRAKEN": true,
+        "OKEX": true,
+        "PHEMEX": true,
+        "POLONIEX": true,
+        "DYDX": true
+      },
+      "timeframes": [
+        {
+          "label": "1s",
+          "value": "1"
+        },
+        {
+          "label": "3s",
+          "value": "3"
+        },
+        {
+          "label": "5s",
+          "value": "5"
+        },
+        {
+          "label": "10s",
+          "value": "10"
+        },
+        {
+          "label": "15s",
+          "value": "15"
+        },
+        {
+          "label": "30s",
+          "value": "30"
+        },
+        {
+          "label": "1m",
+          "value": "60"
+        },
+        {
+          "label": "3m",
+          "value": "180"
+        },
+        {
+          "label": "5m",
+          "value": "300"
+        },
+        {
+          "label": "15m",
+          "value": "900"
+        },
+        {
+          "label": "21m",
+          "value": "1260"
+        },
+        {
+          "label": "30m",
+          "value": "1800"
+        },
+        {
+          "label": "1h",
+          "value": "3600"
+        },
+        {
+          "label": "2h",
+          "value": "7200"
+        },
+        {
+          "label": "4h",
+          "value": "14400"
+        },
+        {
+          "label": "6h",
+          "value": "21600"
+        },
+        {
+          "label": "8h",
+          "value": "28800"
+        },
+        {
+          "label": "12h",
+          "value": "43200"
+        },
+        {
+          "label": "1d",
+          "value": "86400"
+        },
+        {
+          "label": "21 ticks",
+          "value": "21t"
+        },
+        {
+          "label": "50 ticks",
+          "value": "50t"
+        },
+        {
+          "label": "89 ticks",
+          "value": "89t"
+        },
+        {
+          "label": "100 ticks",
+          "value": "100t"
+        },
+        {
+          "label": "200 ticks",
+          "value": "200t"
+        },
+        {
+          "label": "500 ticks",
+          "value": "500t"
+        },
+        {
+          "label": "610 ticks",
+          "value": "610t"
+        },
+        {
+          "label": "1000 ticks",
+          "value": "1000t"
+        },
+        {
+          "label": "1597 ticks",
+          "value": "1597t"
+        }
+      ],
+      "timeframeGroups": [
+        "seconds",
+        "minutes",
+        "hours",
+        "ticks"
+      ],
+      "favoriteTimeframes": {
+        "60": "1m",
+        "300": "5m",
+        "100t": "100 ticks",
+        "300t": "300 ticks"
+      },
+      "normalizeWatermarks": true,
+      "alerts": true,
+      "alertsColor": "red",
+      "alertsLineStyle": 2,
+      "alertsLineWidth": 2,
+      "alertsClick": null,
+      "alertSound": null,
+      "decimalPrecision": null,
+      "recentColors": [
+        "rgb(128,203,196)"
+      ]
+    },
+    "exchanges": {
+      "AGGR": {
+        "disabled": true
+      },
+      "BINANCE": {
+        "fetched": true,
+        "disabled": false
+      },
+      "BINANCE_FUTURES": {
+        "fetched": true
+      },
+      "BINANCE_US": {
+        "fetched": true,
+        "disabled": false
+      },
+      "BITFINEX": {
+        "fetched": true
+      },
+      "BITMEX": {
+        "fetched": true
+      },
+      "BITSTAMP": {
+        "fetched": true
+      },
+      "BYBIT": {
+        "fetched": true
+      },
+      "COINBASE": {
+        "fetched": true
+      },
+      "DERIBIT": {
+        "fetched": true
+      },
+      "DYDX": {
+        "disabled": false,
+        "fetched": false
+      },
+      "FTX": {
+        "fetched": true,
+        "disabled": true
+      },
+      "HITBTC": {
+        "fetched": true,
+        "disabled": true
+      },
+      "HUOBI": {
+        "fetched": true
+      },
+      "KRAKEN": {
+        "fetched": true
+      },
+      "OKEX": {
+        "fetched": true
+      },
+      "PHEMEX": {
+        "fetched": true,
+        "disabled": false
+      },
+      "POLONIEX": {
+        "fetched": true
+      },
+      "_id": "exchanges"
+    },
+    "trades4": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 10000,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 25000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 100000,
+          "buyGif": "rekt",
+          "sellGif": "rekt",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 1000000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 25000,
+          "buyColor": "rgba(0,151,167,0.06)",
+          "sellColor": "rgba(236,64,122,0.1)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)",
+          "buy": "rgba(0,151,167,0.06)"
+        },
+        {
+          "id": "significant",
+          "amount": 50000,
+          "buyColor": "rgba(0,151,167,0.34)",
+          "sellColor": "rgba(236,64,122,0.22)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)"
+        },
+        {
+          "id": "y2q93acf",
+          "amount": 100000,
+          "buyColor": "rgb(27,145,159)",
+          "sellColor": "rgb(154,64,95)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 500000,
+          "buyColor": "rgba(43,198,183,0.79)",
+          "sellColor": "rgba(226,27,105,0.88)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "buyGif": "cash",
+          "sellGif": "cash"
+        },
+        {
+          "id": "rare",
+          "amount": 2000000,
+          "buyColor": "rgb(77,182,172)",
+          "sellColor": "rgb(240,98,146)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "max": false
+        }
+      ],
+      "audioThreshold": "500000",
+      "multipliers": {},
+      "showThresholdsAsTable": true,
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": 1.6,
+      "audioVolume": 0.1,
+      "showTradesPairs": false,
+      "tradeType": "trades",
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrice": true,
+      "thresholdsMultipler": 1,
+      "_id": "trades4"
+    },
+    "trades6": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 10000,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 25000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 100000,
+          "buyGif": "rekt",
+          "sellGif": "rekt",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 1000000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')"
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 20000,
+          "buyColor": "rgb(0,28,2)",
+          "sellColor": "rgb(54,0,5)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "buy": "rgb(0,28,2)"
+        },
+        {
+          "id": "significant",
+          "amount": 50000,
+          "buyColor": "rgb(0,61,5)",
+          "sellColor": "rgb(92,1,9)",
+          "buyAudio": "play(659.26, gain / 10, 0.1 + gain / 7)",
+          "sellAudio": "play(493.88, gain * 1.5 / 10, 0.1 + gain / 7)"
+        },
+        {
+          "id": "j715xpqt",
+          "amount": 100000,
+          "buyColor": "rgb(56,142,60)",
+          "sellColor": "rgb(152,55,62)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        },
+        {
+          "id": "huge",
+          "amount": 300000,
+          "buyColor": "rgb(102,187,106)",
+          "sellColor": "rgb(223,78,88)",
+          "buyAudio": "play(659.26, 0.05 + gain / 10, 0.2 + ratio * 0.23,0,,0);\nplay(830.6, 0.05 + gain / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23,0,,0);\nplay(392, 0.05 + gain * 1.5 / 10, 0.2 + ratio * 0.23, 0.08,,0)",
+          "buyGif": "cash",
+          "sellGif": "cash"
+        },
+        {
+          "id": "rare",
+          "amount": 1000000,
+          "buyColor": "rgb(138,249,143)",
+          "sellColor": "rgb(246,102,114)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.23, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.23, 0.24,,0)",
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "max": true
+        },
+        {
+          "amount": 10000000,
+          "buyColor": "rgb(0,199,9)",
+          "sellColor": "rgb(242,54,69)",
+          "buyAudio": "play(659.26, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(830.6, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.08,,0);\nplay(987.76, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0.16,,0);\nplay(1318.52, 0.05 + gain / 10, 0.1 + ratio * 0.13, 0.24,,0)",
+          "sellAudio": "play(493.88, 0.05 + gain / 25, 0.1 + ratio * 0.13, 0,,0);\nplay(369.99, 0.05 + gain * 1.5 / 10, 0.2, 0.08,,0);\nplay(293.66, 0.05 + gain * 1.5 / 10, 0.2, 0.16,,0);\nplay(246.94, 0.05 + gain * 1.5 / 10, 0.1 + ratio * 0.13, 0.24,,0)"
+        }
+      ],
+      "audioThreshold": "400000",
+      "multipliers": {},
+      "showThresholdsAsTable": true,
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": 1.2,
+      "audioVolume": 0.1,
+      "showTradesPairs": false,
+      "tradeType": "trades",
+      "showLogos": true,
+      "monochromeLogos": false,
+      "showTimeAgo": true,
+      "showPrice": true,
+      "thresholdsMultipler": 1,
+      "_id": "trades6"
+    },
+    "rekts": {
+      "liquidations": [
+        {
+          "id": "liquidation_threshold",
+          "amount": 10000,
+          "buyColor": "rgba(236,64,122,0.5)",
+          "sellColor": "rgba(255,152,0,0.5)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_significant",
+          "amount": 25000,
+          "buyColor": "rgba(236,64,122,0.6)",
+          "sellColor": "rgba(255,152,0,0.7)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_huge",
+          "amount": 100000,
+          "buyGif": "rekt",
+          "sellGif": "rekt",
+          "buyColor": "rgba(236,64,122,0.7)",
+          "sellColor": "rgba(255,152,0,0.8)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')"
+        },
+        {
+          "id": "liquidation_rare",
+          "amount": 1000000,
+          "buyGif": "explosion",
+          "sellGif": "explosion",
+          "buyColor": "rgb(156,39,176)",
+          "sellColor": "rgb(255,235,59)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')",
+          "max": true
+        }
+      ],
+      "thresholds": [
+        {
+          "id": "threshold",
+          "amount": 10000,
+          "buyColor": "rgb(77,182,172)",
+          "sellColor": "rgb(149,117,205)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*2,0,,,'sine')\nplay(329.63, srqtR, srqtR*4,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*2,0,,,'sine')\nplay(440, srqtR, srqtR*4,0.08,,,'sine')"
+        },
+        {
+          "id": "significant",
+          "amount": 25000,
+          "buyColor": "rgb(38,166,154)",
+          "sellColor": "rgb(126,87,194)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*6,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*6,0.08,,,'sine')"
+        },
+        {
+          "id": "huge",
+          "amount": 100000,
+          "buyColor": "rgb(0,121,107)",
+          "sellColor": "rgb(81,45,168)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 4)\nplay(329.63, srqtR, srqtR*4,0,,,'sine')\nplay(329.63, srqtR, srqtR*8,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 6)\nplay(440, srqtR, srqtR*4,0,,,'sine')\nplay(440, srqtR, srqtR*8,0.08,,,'sine')",
+          "buyGif": "rip coffin",
+          "sellGif": "rip coffin"
+        },
+        {
+          "id": "rare",
+          "amount": 1000000,
+          "buyColor": "rgb(0,77,64)",
+          "sellColor": "rgb(49,27,146)",
+          "buyAudio": "var srqtR = Math.min(1, gain / 10)\nplay(329.63, srqtR, 1,0,,,'sine')\nplay(329.63, srqtR, srqtR*10,0.08,,,'sine')",
+          "sellAudio": "var srqtR = Math.min(1, gain / 10)\nplay(440, srqtR, 1,0,,,'sine')\nplay(440, srqtR, srqtR*10,0.08,,,'sine')",
+          "buyGif": "rip coffin",
+          "sellGif": "rip coffin"
+        }
+      ],
+      "audioThreshold": null,
+      "multipliers": {},
+      "showThresholdsAsTable": true,
+      "maxRows": 100,
+      "muted": false,
+      "audioPitch": null,
+      "audioVolume": 0.3,
+      "showTradesPairs": false,
+      "tradeType": "liquidations",
+      "showLogos": true,
+      "monochromeLogos": true,
+      "showTimeAgo": true,
+      "showPrice": true,
+      "thresholdsMultipler": 1,
+      "_id": "rekts"
+    },
+    "counters copy 1": {
+      "granularity": 5000,
+      "liquidationsOnly": false,
+      "steps": [
+        30000,
+        60000
+      ],
+      "count": false,
+      "_id": "counters copy 1"
+    },
+    "counters copy 2": {
+      "granularity": 5000,
+      "liquidationsOnly": false,
+      "steps": [
+        30000,
+        60000
+      ],
+      "count": false,
+      "_id": "counters copy 2"
+    }
+  }
+}
